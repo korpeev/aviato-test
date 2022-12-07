@@ -10,6 +10,10 @@
     "isolatedModules": true,
     "esModuleInterop": true,
     "lib": ["ESNext", "DOM"],
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["src/*"]
+    },
     "skipLibCheck": true,
     "noEmit": true
   },
